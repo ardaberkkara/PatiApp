@@ -1,0 +1,33 @@
+{
+  "expo": {
+    "name": "Pati App",
+    "slug": "pati-app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "ios": {
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSLocationWhenInUseUsageDescription": "Yakınındaki mama/su noktalarını ve veterinerleri gösterebilmek için konumunuza ihtiyacımız var."
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#2D7A4F"
+      },
+      "permissions": [
+        "ACCESS_FINE_LOCATION",
+        "ACCESS_COARSE_LOCATION"
+      ]
+    },
+    "plugins": [
+      [
+        "expo-location",
+        {
+          "locationWhenInUsePermission": "Yakınındaki mama/su noktalarını ve veterinerleri gösterebilmek için konumunuza ihtiyacımız var."
+        }
+      ],
+      "expo-secure-store"
+    ]
+  }
+}
